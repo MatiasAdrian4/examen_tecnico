@@ -1,0 +1,74 @@
+#promociones body {
+    font-size: 0.7rem;
+}
+
+#promociones .container {
+    padding: 20px 0px;
+}
+
+#promociones h4{
+    padding: 15px;
+}
+
+#promociones .container .row {
+    margin: 10px;
+}
+
+#promociones .container button[type=submit] {
+    background-color: #1fa385;
+    border: none;
+}
+
+.calendar-div {
+    position: relative;
+}
+
+.calendar-icon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #1fa385;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px;
+    height: 100%;
+}
+
+.data-section {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.data-section thead {
+    border-top: 1px solid gray;
+    color: gray;
+}
+
+.data-section thead tr {
+    background-color: white!important;
+}
+
+.data-section thead th {
+    padding: 10px;
+}
+
+.data-section tr:nth-child(odd){
+    background-color: #DBDBDB;
+}
+
+.selector_pages label{
+    background-color: #f2f2f2;
+    color: #1fa385;
+    border: 1px solid #1fa385;
+    border-width: thin;
+}
+
+.selector_pages label.active{
+    background-color: #1fa385!important;
+}
+
+.footer-buttons button {
+    background-color: #26A2CF;
+    border: none!important;
+}
